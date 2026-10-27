@@ -1,0 +1,8 @@
+{
+  "name": "comp3028-api-security-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"start": "node server.mjs", "test": "node test.mjs"},
+  "dependencies": {"express": "^5.1.0", "express-session": "^1.18.1", "bcrypt": "^6.0.0", "jsonwebtoken": "^9.0.2"}
+}
